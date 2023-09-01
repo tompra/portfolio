@@ -1,0 +1,11 @@
+Linters used:
+
+-   CSSLint
+-   HTMLHint
+-   Prettier
+-   Stylelint
+
+Cross-browser testing:
+
+Projects page: grid broke, had to re-arranged the style.production.
+Index page: media queries, changed background::before position.
