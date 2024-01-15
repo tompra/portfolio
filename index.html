@@ -1,113 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Thomas Prayon | Portfolio</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap"
+            rel="stylesheet"
+        />
+        <!-- <link rel="stylesheet" type="text/css" href="css/styles.css" /> -->
+        <link rel="stylesheet" href="css/style.production.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Thomas Prayon | Portfolio</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css" /> -->
-    <link rel="stylesheet" href="css/style.production.css">
-</head>
-
-<body>
-    <header class="header__container">
-        <img src="img/logo/thomas-logo-full.svg" alt="Logo with my name on it" class="logo--personal__big" />
-        <img src="img/logo/tp-short-logo.svg" alt="Logo with my initials" class="logo--personal__small">
-        <nav>
-            <ul role="menubar" class="navigation__list">
-                <li role="presentation">
-                    <a href="./index.html" role="menuitem" class="navigation__link navigation__link--active">
-                        Home
-                    </a>
-                </li>
-                <li role="presentation">
-                    <a href="./contact.html" role="menuitem" class="navigation__link">
-                        Contact
-                    </a>
-                </li>
-                <li role="presentation">
-                    <a href="./about.html" role="menuitem" class="navigation__link">
-                        About me
-                    </a>
-                </li>
-                <li role="presentation">
-                    <a href="./projects.html" role="menuitem" class="navigation__link">
-                        My Work
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main class="profile__container">
-        <div class="profile__container--photo">
-            <div class="profile__image--container">
-                <img src="img/portrait-picture.jpeg" alt="A picture of myself" class="profile__portrait" />
+    <body>
+        <header class="header__container">
+            <img
+                src="img/logo/thomas-logo-full.svg"
+                alt="Logo with my name on it"
+                class="logo--personal__big"
+            />
+            <img
+                src="img/logo/tp-short-logo.svg"
+                alt="Logo with my initials"
+                class="logo--personal__small"
+            />
+            <nav>
+                <ul role="menubar" class="navigation__list">
+                    <li role="presentation">
+                        <a
+                            href="./index.html"
+                            role="menuitem"
+                            class="navigation__link navigation__link--active"
+                        >
+                            Home
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a
+                            href="./contact.html"
+                            role="menuitem"
+                            class="navigation__link"
+                        >
+                            Contact
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a
+                            href="./about.html"
+                            role="menuitem"
+                            class="navigation__link"
+                        >
+                            About me
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a
+                            href="./projects.html"
+                            role="menuitem"
+                            class="navigation__link"
+                        >
+                            My Work
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="profile__container">
+            <div class="profile__container--photo">
+                <div class="profile__image--container">
+                    <img
+                        src="img/portrait-picture.jpeg"
+                        alt="A picture of myself"
+                        class="profile__portrait"
+                    />
+                </div>
+                <div class="profile__image--information">
+                    <h1>Thomas Prayon</h1>
+                    <h2>&lt;web developer /&gt;</h2>
+                </div>
             </div>
-            <div class="profile__image--information">
-                <h1>Thomas Prayon</h1>
-                <h2>&lt;web developer /&gt;</h2>
+            <div class="profile__container--text">
+                <h1>Hi there! 👋</h1>
+                <h2>This is who I am</h2>
+                <p>
+                    Whether it's climbing to new heights, cycling through
+                    uncharted terrain, hiking in the great outdoors, or reading
+                    a good book, I'm always seeking new experiences. Music is my
+                    constant companion, and learning is my lifelong adventure.
+                </p>
+
+                <a
+                    href="./projects.html"
+                    target="_blank"
+                    role="button"
+                    class="button"
+                    >Check my work</a
+                >
             </div>
-        </div>
-        <div class="profile__container--text">
-            <h1>Hi there! 👋</h1>
-            <h2>This is who I am</h2>
-            <p>
-                Whether it's climbing to new heights, cycling through
-                uncharted terrain,
-                hiking in the great outdoors, or reading a good book, I'm always seeking new experiences. Music is
-                my constant
-                companion, and learning is my lifelong adventure.
-            </p>
-
-            <a href="./projects.html" target="_blank" role="button" class="button">Check my work</a>
-
-        </div>
-    </main>
-    <footer class="footer__container">
-        <div class="footer__copyright">
-            <p>&copy;2023 by Thomas Prayon </p>
-        </div>
-        <div class="footer__contact--phone">
-            <h3>Call me</h3>
-            <p>
-                <a href="tel:+493048328832" role="link" aria-label="Call me at +493048328832" class="contact__link">+49
-                    30 4832 8832</a>
-            </p>
-        </div>
-        <div class="footer__contact--mail">
-            <h3>Write me</h3>
-            <p>
-                <a href="mailto:tomprayon@mail.com" role="link"
-                    aria-label="Send me a mail to: tomprayon@mail.com">tomprayon@mail.com</a>
-            </p>
-        </div>
-        <div class="footer__contact--social-media">
-            <h3>Follow me</h3>
-            <div class="footer__social-media-logos">
-                <a href="https://github.com/" target="_blank" role="link">
-                    <img src="./img/github-icon.svg" alt="github logo" class="logo__social-media" />
-                </a>
-                <a href="https://www.linkedin.com/" target="_blank" role="link">
-                    <img src="./img/linkedin-icon.svg" alt="linkedin logo" class="logo__social-media" />
-                </a>
-                <a href="https://twitter.com/" target="_blank" role="link">
-                    <img src="./img/twitter-icon.svg" alt="twitter-logo" class="logo__social-media" />
-                </a>
+        </main>
+        <footer class="footer__container">
+            <div class="footer__copyright">
+                <p>&copy;2023 by Thomas Prayon</p>
             </div>
-
-        </div>
-    </footer>
-    <script src="./js/tota11y.min.js"></script>
-</body>
-
+            <div class="footer__contact--phone">
+                <h3>Call me</h3>
+                <p>
+                    <a
+                        href="tel:+493048328832"
+                        role="link"
+                        aria-label="Call me at +493048328832"
+                        class="contact__link"
+                        >+49 30 4832 8832</a
+                    >
+                </p>
+            </div>
+            <div class="footer__contact--mail">
+                <h3>Write me</h3>
+                <p>
+                    <a
+                        href="mailto:tomprayon@mail.com"
+                        role="link"
+                        aria-label="Send me a mail to: tomprayon@mail.com"
+                        >tomprayon@mail.com</a
+                    >
+                </p>
+            </div>
+            <div class="footer__contact--social-media">
+                <h3>Follow me</h3>
+                <div class="footer__social-media-logos">
+                    <a
+                        href="https://github.com/tompra"
+                        target="_blank"
+                        role="link"
+                    >
+                        <img
+                            src="./img/github-icon.svg"
+                            alt="github logo"
+                            class="logo__social-media"
+                        />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/thom-prayon"
+                        target="_blank"
+                        role="link"
+                    >
+                        <img
+                            src="./img/linkedin-icon.svg"
+                            alt="linkedin logo"
+                            class="logo__social-media"
+                        />
+                    </a>
+                    <a
+                        href="https://twitter.com/home"
+                        target="_blank"
+                        role="link"
+                    >
+                        <img
+                            src="./img/twitter-icon.svg"
+                            alt="twitter-logo"
+                            class="logo__social-media"
+                        />
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/tota11y.min.js"></script>
+    </body>
 </html>
